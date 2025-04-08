@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Arimo", sans-serif;
+    font-size: 1rem;
+    background: url(../img/fondo.png);
+}
+
+.titulo-general {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#contenedor-formularios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+/* Estilo para cada formulario */
+.formulario-persona {
+    background-color:  #ade6f5;
+    width: 100%;
+    max-width: 40rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Título de cada persona */
+.form-titulo {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+/* Contenedor de cada fila de label-input */
+.contenedor-persona {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Inputs */
+.form-input {
+    background-color: white;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+
+    transition: border .2s ease-in-out;
+}
+
+.form-input:hover {
+    
+    border-color: #0fcefd;
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+}
+
+/* Mensajes de error */
+.error {
+    grid-column: 2/3;
+    color: red;
+    font-style: italic;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+}
+
+/* Boton Guardar */
+.boton-guardar{
+    padding: 1rem;
+    background-color: #ade6f5;
+    border: none;
+    border-radius: .5rem;
+    font-weight: 800;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+
+    transition: transform .2s ease, background-color .3s ease;
+}
+
+.boton-guardar:hover{
+    transform: scale(1.05);
+    background-color: #9dddea;
+}
