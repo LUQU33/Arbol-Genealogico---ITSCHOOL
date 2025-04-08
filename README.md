@@ -20,7 +20,7 @@ Este proyecto está publicado en **GitHub Pages** y podés verlo en vivo acá:
 ## 🧪 ¿Cómo usarlo?
 - Apenas cargues la página deberas ingresar la cantidad de personas que contendrá el formulario.
 - Completá los formularios con los datos de cada persona y presioná "Guardar" para validarlos.
-- Verás un alert que dirá "Personas cargadas correctamente!"
+- Verás un alert que dirá "Personas cargadas correctamente!" indicando que no hubo errores.
 - Al final aparecerá otro alert con diferentes datos que se obtuvieron recorriendo los datos de estos formularios.
 
 ## 🛠️ Tecnologías utilizadas
