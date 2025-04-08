@@ -26,7 +26,7 @@ Este proyecto está publicado en **GitHub Pages** y podés verlo en vivo acá:
 ## 🛠️ Tecnologías utilizadas
 - HTML5
 - CSS3 (transiciones, grid, flexbox)
-- JavaScript (validación de formularios)
+- JavaScript (Manipulación del DOM, inserción y validación de formularios)
 
 ## 📌 Autor
 **LUQU33**  
